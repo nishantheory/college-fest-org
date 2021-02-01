@@ -64,6 +64,63 @@ p {
     text-align:center;
     color:#3CBC8D;
 }
+body{
+    background-color:black;
+}
+#a{
+    width:0px;
+    height:500px;
+   background-image:linear-gradient(45deg,pink,#0085ed);
+   transition:width 1s;
+   border-radius:20px;
+   border:2px solid black;
+   overflow-x:hidden;
+   }
+   #g{
+    position:relative;
+    top:-500px;
+   box-shadow:0px 0px 40px black;
+  border-radius:50%;
+  background-image:linear-gradient(45deg,pink,#0085ed);
+   width:50px;
+   height:50px;
+   outline:white;
+   opacity:0.8;
+   color:white;
+}
+#jo{
+    position:relative;
+    right:-50px;
+    text-decoration:none;
+    color:white;
+}
+#ok{
+    position:relative;
+    right:-50px;
+    text-decoration:none;
+    display:block;
+    color:white;
+    top:-45px;
+}
+#we{
+    position:relative;
+    right:-50px;
+    text-decoration:none;
+    color:white;
+    display:block;
+    top:-90px;
+}
+#blu{
+    color:black;
+    position:relative;
+   top:-320px;
+   right:-140px;
+   display:block;
+   color:white;
+}
+a{
+    font-family:courier;
+}
         </style>
     </head>
     
@@ -78,7 +135,23 @@ p {
             <h1><span>EVENTS</span></h1>
        
     
+            <div id="a">
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="#" id="jo"><h3>&laquo; Home</h3></a>
+             <br>
+            <br>
+             <a href="#" id="ok"><h3>&laquo; About</h3></a>
+             <br>
+             <br>
+             <a href="#" id="we"><h3>&laquo; Logins</h3></a>
+       <span id="blu" onclick="hello()"><h2>&times;</h2></span>
+        </div>
         
+           
+                  <button type="button" id="g" onclick="hi()">Menu</button>    
         
         
       
