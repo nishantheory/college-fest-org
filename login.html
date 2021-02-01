@@ -29,11 +29,25 @@ background-color:#3CBC8D;
     border-radius:10%;
     
 }
+#para{
+    animation:change 1s linear infinite;
+}
+@keyframes change
+{
+    0%{color:blue;}
+    50%{color:black;}
+    100%{color:blue;}
+}
 </style>
         <title>Logins</title>
     </head>
     <body>
     <center><h1><tt>MREC EVENTS/FESTS</tt></h1></center>
+<br>
+<br>
+<center><h1><p id="para">_____________</p></h1></center>
+<br>
+<br>
     <h3><tt>LoginID</tt></h3><input type="text" id="ip1" placeholder="Enter your ID">
     <br>
     <br>
@@ -44,6 +58,9 @@ background-color:#3CBC8D;
         <center><button onClick="#" id="bt1">SUBMIT</button></center>
         <br>
         <br>
+<center><h1><p id="para">_____________</p></h1></center>
+<br>
+<br>
         <tt><h3>*For accessing the Student's event dashboard after registration.</h3></tt>
     </body>
 </html>
