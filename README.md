@@ -1,4 +1,4 @@
-# college-fest-organiser.
+# college-fest-organiser. (100% Designed and Developed by Adki Nishanth).
 ## Involves building a dynamic web-application for managing the events organised on behalf of a college/organisation on one go.
 * The word 'fest/event' sounds really intresting especially when we involve in managing the event.</br>
 
